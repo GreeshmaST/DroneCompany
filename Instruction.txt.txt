@@ -1,0 +1,6 @@
+1. Create a webpage for Drone technology company(You can check the design from "Design png" folder
+2. Use the assets images from "assest" folder
+3. Use material icon library to display some icons based on the design
+4. Must Use SaSS OR LeSS compiler to compute the css.
+5. Make it as slider for banner section. (Content must be change in every five seconds)
+6. Primary color code is blue :#2e3192

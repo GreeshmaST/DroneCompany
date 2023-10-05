@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html>
+<title>Quadron</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button w3-wide">LOGO</a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">HOME</a>
+      <a href="#team" class="w3-bar-item w3-button">PAGES</a>
+      <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-th"></i>PROJECTS</a>
+      <a href="#pricing" class="w3-bar-item w3-button">BLOG</a>
+      <a href="#pricing" class="w3-bar-item w3-button"><i class="fa fa-shopping-cart"></i> SHOP</a>
+      <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">HOME</a>
+  <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">PAGES</a>
+  <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">PROJECTS</a>
+  <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">BLOG</a>
+  <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">SHOP</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+</nav>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-left " style="padding:50px">
+    <span class="w3-small w3-text-blue"> &#9866; Quadron Spark Controller Combo</span><br>  
+    <span class="w3-large w3-hide-small w3-text-white">The Ultraportable Drone For The Best Video</span><br>    
+    <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Learn more</a></p>
+  </div> 
+  <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+</header>
+
+<!-- About Section -->
+<div class="w3-container w3-light-grey bgimg-2" style="padding:128px 16px" id="service">
+  
+  <div class="w3-half">
+    <h3 class="w3-center  w3-text-blue"> &#9866; Services</h3>
+    <p class="w3-center w3-large">We Help You To Embrace The Future</p>
+  </div><div class="w3-half">
+    <div class="w3-row-padding w3-center" style="margin-top:64px">
+      <div class="w3-half">
+        <i class="fa fa-shopping-bag w3-margin-bottom w3-jumbo w3-center"></i>
+        <p class="w3-large">Delivery</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+      </div>
+      
+      <div class="w3-half">
+        <i class="fa fa-handshake-o w3-margin-bottom w3-jumbo"></i>
+        <p class="w3-large">Public Safety</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+      </div>
+
+      <div class="w3-half">
+        <i class="fa fa-newspaper-o w3-margin-bottom w3-jumbo"></i>
+        <p class="w3-large">News & Media</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+      </div>
+      <div class="w3-half">
+        <i class="fa fa-video-camera w3-margin-bottom w3-jumbo"></i>
+        <p class="w3-large">Film Production</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+      </div>
+      <div class="w3-half">
+        <i class="fa fa-search w3-margin-bottom w3-jumbo"></i>
+        <p class="w3-large">Inspection</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+      </div>
+      <div class="w3-half">
+        <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
+        <p class="w3-large">construction</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- About Section - "We know design" -->
+<div class="w3-container " id="about">
+  <div class="w3-row-padding">
+        <div class="w3-col m6">
+      <img class="w3-image w3-round-large" src="assets/promo_img_01.jpg" alt="Buildings" width="500" height="200">
+    </div>
+    <div class="w3-col m6"style="padding:10px 16px">
+      <h3 class="w3-text-blue"> &#9866; About</h3>
+      <p>We are Quadron Company</p>
+      <p>Drones, sometimes referred to as unmanned aerial vehicles (UAVs), carry out tasks that range from the mundane to the ultra-dangerous. These robot-like aircrafts can be found rescuing avalanche victims as well as dropping off groceries at your doorstep — and almost everywhere in between.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Achievements Section -->
+<div class="w3-container w3-light-grey " style="padding:128px 16px" id="team">
+  <h5 class="w3-text-blue"> &#9866; Achievements</h5>
+  <p class=" w3-large">Quadron Progress</p>
+  <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
+    <div class="w3-margin-bottom w3-third">
+      <div class="w3-card">
+        
+        <div class="w3-container">
+           <h4 class="w3-text-blue">Delivery Packages</h4>
+          <p class="w3-opacity">6500m</p>
+          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+          
+        </div>
+      </div>
+    </div>
+    <div class="w3-margin-bottom w3-third">
+      <div class="w3-card">
+        
+        <div class="w3-container">
+           <h4 class="w3-text-blue">Satisfied</h4>
+          <p class="w3-opacity">784 clients</p>
+          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+         
+        </div>
+      </div>
+    </div>
+    <div class=" w3-margin-bottom w3-third">
+      <div class="w3-card">
+        
+        <div class="w3-container">
+           <h4 class="w3-text-blue">Covered</h4>
+          <p class="w3-opacity">57 countries</p>
+          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+          
+        </div>
+      </div>
+    </div>
+  
+  </div>
+</div>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="assets/sliding_img1.jpg" style="width:100%">
+  
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="assets/sliding_img2.jpg" style="width:100%">
+ 
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="assets/sliding_img3.png" style="width:100%">
+  
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+<!-- work Section "Statistics" -->
+<div class="w3-container w3-row w3-light-grey  w3-padding-64"  id ="work">
+   <h5 class="w3-text-blue"> &#9866; How We Work</h5>
+   <p class=" w3-large">Create Work With Corporate Clients</p>
+  <table style="text-align:center">
+<tr>
+  <td> 
+    <span class="w3-xsmall w3-text-blue">01/06</span>
+    <br>Identify a Core business problem
+  </td>
+  <td>
+   <span class="w3-xsmall w3-text-blue">02/06</span>
+    <br>Arrive to a technical solution
+  </td>
+  <td>
+   <span class="w3-xsmall w3-text-blue">03/06</span>
+    <br>Consectetur adipisicing</td>
+  </td>
+  <td>
+   <span class="w3-xsmall w3-text-blue">04/06</span>
+    <br>Connection with customer service</td>
+  </td>
+    <td> 
+      <span class="w3-xsmall w3-text-blue">05/06</span>
+     <br>Prepare Documentation
+   </td>
+  <td>
+   <span class="w3-xsmall w3-text-blue">06/06</span>
+    <br>Client project process</td>
+</tr>
+</table>
+ 
+  
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+<!-- Alphin Section - "We know design" -->
+<div class="w3-container "style="padding:50px 16px">
+  <div class="w3-row-padding">
+        <div class="w3-col m6">
+      <img class="w3-image w3-round-large" src="assets/index_img_01.png" alt="Buildings" width="500" height="200">
+    </div>
+    <div class="w3-col m6"style="padding:10px 16px">
+      <h4 class="w3-text-blue"> &#9866; Alphin White</h4>
+      <p class="w3-large">Quadron Controller Combo Copter </p>
+      <p>Drones, sometimes referred to as unmanned aerial vehicles (UAVs), carry out tasks that range from the mundane to the ultra-dangerous. These robot-like aircrafts can be found rescuing avalanche victims as well as dropping off groceries at your doorstep — and almost everywhere in between.</p>
+    <table style="width:100%" >
+  <tr style="padding:30px">
+    <td class="w3-text-blue" ><i class="fa fa-cogs" aria-hidden="true"></i> &nbsp;Flight Time <br>16 min</td>
+    <td class="w3-text-blue"><i class="fa fa-rss" aria-hidden="true"></i>&nbsp;Transmission Distance<br>1.2ml(2km)</td>
+   
+  </tr>
+
+  <tr>
+    <td class="w3-text-blue"><i class="fa fa-camera-retro" aria-hidden="true"></i>&nbsp;Effective Pixels<br>12mp</td>
+    <td class="w3-text-blue"><i class="fa fa-signal" aria-hidden="true"></i>&nbsp;VPS range<br>30m</td>
+   
+  </tr>
+</table>
+
+    </div>    
+  </div>
+</div>
+
+
+
+<!-- Contact Section -->
+<div class="w3-container w3-light-grey" style="padding:80px 16px" id="contact">
+  <h4 class="w3-center w3-text-blue">&#9866;CONTACT</h4>
+  <p class="w3-center w3-large">Lets get in touch. Send us a message:</p>
+  <div style="margin-top:48px">
+   
+    <form name="form1">
+      <p><input class="w3-input w3-border" type="text" placeholder="First Name" required name="fName"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Last Name" required name="lName"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-blue" type="submit" onClick="displayData()">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+    <!-- Image of location/map 
+    <img src="/w3images/map.jpg" class="w3-image w3-greyscale" style="width:100%;margin-top:48px">-->
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+
+  <div class="w3-xlarge w3-section">
+  <div class="w3-row-padding">
+    <div class="col-md-3"><span class="circle"><span><i class=" fa fa-facebook-official w3-hover-opacity"></i></span></span><span class="circle"><span><i class="fa fa-instagram w3-hover-opacity""></i></span></span><span class="circle"><span><i class=" fa fa-pinterest-p w3-hover-opacity"></i></span></span><span class="circle"><span><i class="fa fa-snapchat w3-hover-opacity""></i></span></span><span class="circle"><span><i class=" fa fa-twitter w3-hover-opacity"></i></span></span><span class="circle"><span><i class="fa fa-linkedin w3-hover-opacity""></i></span></span></div>
+   
+  </div>
+</div>
+  <p>@2023 Quadron.All rights Reserved</p>
+</footer>
+ 
+<script LANGUAGE="JavaScript" type="text/javascript">
+let slideIndex = 0;
+showSlides();
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+function displayData() {
+  DispWin = window.open('','NewWin', 'toolbar=no,status=no,width=300,height=200')
+  message = "<ul><li><b>First Name: </b>" + document.form1.fName.value;
+  message += "<li><b>Last Name: </b>" + document.form1.lName.value;
+  message += "<li><b>Subject: </b>" + document.form1.Subject.value ;
+  message += "<li><b>Message: </b>" + document.form1.Message.value +"</ul>";
+   message += "<b>Form Submitted successfully</b>";
+  DispWin.document.write(message);
+}
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+
+</body>
+</html>
